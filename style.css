@@ -1,0 +1,36 @@
+body {
+    padding: 30px;
+    display: grid;
+    place-items: center;
+}
+
+code {
+    padding: 5px 8px;
+    border-radius: 18px;
+    background: #f8f9f9;
+    color: #cc0066;
+}
+
+[type='color'] {
+    appearance: none;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    border: none;
+}
+
+[type='color']::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+[type='color']::-webkit-color-swatch {
+    border: none;
+}
+
+.color-picker {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #f8f9f9;
+}
+
